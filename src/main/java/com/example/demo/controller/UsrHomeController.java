@@ -9,6 +9,6 @@ public class UsrHomeController {
 	@RequestMapping("/usr/home/main")
 	@ResponseBody
 	String showMain() {
-		return "HI";
+		return "HI.";
 	}
 }
